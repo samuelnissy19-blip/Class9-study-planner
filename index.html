@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class 9 Study Planner</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6ff;
+            margin: 0;
+        }
+        header {
+            background-color: #2b6cb0;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #1e4e8c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+        section {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2b6cb0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #2b6cb0;
+            color: white;
+        }
+        footer {
+            background-color: #2b6cb0;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* PRINT MODE */
+        @media print {
+            nav, footer {
+                display: none;
+            }
+            body {
+                background-color: white;
+            }
+            section {
+                border: none;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📘 Class 9 Study Planner</h1>
+    <p>Plan Smart • Study Daily • Score High</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#exam">Exam</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#checklist">Checklist</a>
+    <a href="#tips">Tips</a>
+    <a href="#memory">Memory</a>
+    <a href="#monthly">Monthly</a>
+    <a href="#notes">Notes</a>
+    <a href="#tracker">Tracker</a>
+</nav>
+
+<section id="home">
+    <h2>📅 Daily Study Plan</h2>
+    <ul>
+        <li>Morning: Maths / Science</li>
+        <li>Evening: English</li>
+        <li>Night: Social Science</li>
+    </ul>
+</section>
+
+<section id="exam">
+    <h2>📆 Exam Timetable</h2>
+    <table>
+        <tr><th>Date</th><th>Subject</th></tr>
+        <tr><td>3 January</td><td>Mathematics</td></tr>
+        <tr><td>5 January</td><td>Science</td></tr>
+        <tr><td>6 January</td><td>AI</td></tr>
+        <tr><td>7 January</td><td>Hindi</td></tr>
+<tr><td>8 January</td><td>English</td></tr>
+<tr><td>9 January</td><td>Social Science</td></tr>
+
+    </table>
+</section>
+
+<section id="subjects">
+    <h2>📚 Subjects</h2>
+
+    <h3>Maths</h3>
+    <ul><li>Quadrilaterals</li><li>Triangles</li><li>Circles</li><li>Heron's formula</li></ul>
+
+    <h3>Science</h3>
+    <ul><li>Gravitation</li><li>Structure of Atoms</li><li>Atoms and Molecules</li><li>Work and Energy</li></ul>
+
+    <h3>English</h3>
+    <ul><li>Grammar</li><li>Writing</li><li>Literature</li></ul>
+
+    <h3>Social Science</h3>
+    <ul><li>History</li><li>Geography</li><li>Economics</li></ul>
+</section>
+
+<section id="checklist">
+    <h2>✔️ Chapter Checklist</h2>
+    <ul>
+        <li><input type="checkbox"> Maths – Circles, Quadrilateral</li>
+        <li><input type="checkbox"> Science  - Structure of Atoms, Atoms and molecules</li>
+        <li><input type="checkbox"> English – Grammar</li>
+        <li><input type="checkbox"> Social – History</li>
+    </ul>
+</section>
+
+<section id="tips">
+    <h2>💡 Exam Preparation Tips</h2>
+    <ol>
+        <li>Revise daily</li>
+        <li>Practice numericals</li>
+        <li>Write answers daily</li>
+        <li>Sleep well</li>
+    </ol>
+</section>
+
+<section id="memory">
+    <h2>🧠 Memory Tricks</h2>
+    <ul>
+        <li>📌 Study → Revise → Test</li>
+        <li>📌 Teach someone else</li>
+        <li>📌 Write key points</li>
+        <li>📌 Use diagrams & flowcharts</li>
+    </ul>
+</section>
+
+<section id="monthly">
+    <h2>🗓️ Monthly Planner</h2>
+    <table>
+        <tr><th>Week</th><th>Target</th></tr>
+        <tr><td>Week 1</td><td>Maths + Science</td></tr>
+        <tr><td>Week 2</td><td>English + Social</td></tr>
+        <tr><td>Week 3</td><td>Hindi + AI</td></tr>
+<tr><td>Week 4</td><td>Revision</td></tr>
+        <tr><td>Week 5</td><td>Test Practice</td></tr>
+    </table>
+</section>
+
+<section id="notes">
+    <h2>📝 Personal Notes</h2>
+    <p>• Focus on weak chapters</p>
+    <p>• Revise formulas daily</p>
+</section>
+
+<section id="tracker">
+    <h2>📊 Daily Study Tracker</h2>
+    <table>
+        <tr><th>Day</th><th>Subject</th><th>Hours</th></tr>
+        <tr><td>Monday</td><td>Maths</td><td>2</td></tr>
+        <tr><td>Tuesday</td><td>Science</td><td>2</td></tr>
+<tr><td>Wednesday</td><td>Social Science</td><td>2</td></tr>
+<tr><td>Thursday</td><td>Hindi</td><td>2</td></tr>
+<tr><td>Friday</td><td>English</td><td>2</td></tr>
+<tr><td>Saturday</td><td>AI</td><td>2</td></tr>
+    </table>
+</section>
+
+<footer>
+    © 2025 | Class 9 Study Planner
+</footer>
+
+</body>
+  </html>
